@@ -31,3 +31,13 @@
 @import url(../blocks/cart-products/cart-products__btn-clear.css);
 @import url(../blocks/cart-products/cart-products__btn-recalculate.css);
 @import url(../blocks/cart-products/cart-products__btn-place.css);
+@import url(../blocks/cart-products/cart-products__promo.css);
+
+@import url(../blocks/order-promo/order-promo.css);
+@import url(../blocks/order-promo/order-promo__btn.css);
+@import url(../blocks/order-promo/order-promo__enter.css);
+@import url(../blocks/order-promo/order-promo__input.css);
+@import url(../blocks/order-promo/order-promo__status-name.css);
+@import url(../blocks/order-promo/order-promo__status-value.css);
+@import url(../blocks/order-promo/order-promo__status.css);
+@import url(../blocks/order-promo/order-promo__title.css);

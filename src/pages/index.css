@@ -13,17 +13,9 @@
 @import url(../blocks/order-step/order-step__input-text.css);
 @import url(../blocks/order-step/order-step__input-radio.css);
 @import url(../blocks/order-step/order-step__textarea.css);
-
 @import url(../blocks/order-step/order-step__agreement.css);
 @import url(../blocks/order-step/order-step__btn.css);
 @import url(../blocks/order-step/order-step__promo.css);
-@import url(../blocks/order-step/order-step__promo-name.css);
-@import url(../blocks/order-step/order-step__promo-title.css);
-@import url(../blocks/order-step/order-step__promo-value.css);
-@import url(../blocks/order-step/order-step__promo-status.css);
-@import url(../blocks/order-step/order-step__promocod.css);
-@import url(../blocks/order-step/order-step__promocod-input.css);
-@import url(../blocks/order-step/order-step__promocod-btn.css);
 
 @import url(../blocks/order-products/order-products.css);
 @import url(../blocks/order-products/order-products__list.css);
@@ -51,4 +43,15 @@
 @import url(../blocks/order-total/order-total__old.css);
 @import url(../blocks/order-total/order-total__price.css);
 @import url(../blocks/order-total/order-total__title.css);
+
+@import url(../blocks/order-promo/order-promo.css);
+@import url(../blocks/order-promo/order-promo__btn.css);
+@import url(../blocks/order-promo/order-promo__enter.css);
+@import url(../blocks/order-promo/order-promo__input.css);
+@import url(../blocks/order-promo/order-promo__status-name.css);
+@import url(../blocks/order-promo/order-promo__status-value.css);
+@import url(../blocks/order-promo/order-promo__status.css);
+@import url(../blocks/order-promo/order-promo__title.css);
+
+
 

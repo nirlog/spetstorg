@@ -29,3 +29,12 @@
     height: 18px;
     margin-right: 10px;
 }
+
+.cart-products__btn svg {
+    height: 18px;
+    margin-right: 10px;
+}
+
+.cart-products__btn:active svg path {
+    stroke: #25589B;
+}

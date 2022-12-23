@@ -1,0 +1,16 @@
+.cart-products__promo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.cart-products__promo .order-promo {
+    padding: 2px 0 20px;
+}
+
+@media screen and (max-width: 570px){
+    .cart-products__promo {
+        justify-content: center;
+        padding: 20px 0;
+    }
+}

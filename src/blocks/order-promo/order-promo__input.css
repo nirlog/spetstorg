@@ -1,4 +1,4 @@
-.order-step__promocod-input {
+.order-promo__input {
     height: 40px;
     border: 1px solid #25589B;
     border-radius: 2px 0px 0px 2px;
@@ -11,4 +11,7 @@
     color: #25589B;
     box-sizing: border-box;
     padding: 8px 10px;
+    width: 100%;
 }
+
+.order-promo__input::placeholder {opacity: 0.38;}

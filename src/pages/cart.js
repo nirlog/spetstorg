@@ -23,11 +23,14 @@ function ready(){
             if(cartProductsCheckboxHead.classList.contains('all')){
                 cartProductsCheckboxHead.classList.remove('all');
                 cartProductsCheckboxBody.forEach((productCheckbox) => {
+                    productCheckbox.parentNode.querySelector('.cart-products-checkbox__input').checked = false;
                     productCheckbox.classList.remove('all');
+
                 });
             }else{
                 cartProductsCheckboxHead.classList.add('all');
                 cartProductsCheckboxBody.forEach((productCheckbox) => {
+                    productCheckbox.parentNode.querySelector('.cart-products-checkbox__input').checked = true;
                     productCheckbox.classList.add('all');
                 });
             }
@@ -35,7 +38,7 @@ function ready(){
             cartProductsCheckboxHead.classList.remove('partially');
             cartProductsCheckboxHead.classList.remove('all');
             cartProductsCheckboxBody.forEach((productCheckbox) => {
-                
+                productCheckbox.parentNode.querySelector('.cart-products-checkbox__input').checked = false;
                 productCheckbox.classList.remove('all');
             });
         }
