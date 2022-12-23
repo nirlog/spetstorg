@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>order</title>
+<script defer src="js/index.368c629aadb328413629.js"></script><link href="index.css" rel="stylesheet"></head>
+
+<body style="max-width: 1520px; margin: 0 auto; padding: 0;">
+  <div class="order-registration">
+    <h1 class="order-registration__title">Оформление корзины</h1>
+    <div class="order-registration__steps">
+      <div class="order-step order-step__one">
+        <h3 class="order-step__title">
+          <span class="order-step__title-number">1</span>
+          Покупатель
+        </h3>
+        <div class="order-step__content">
+            <fieldset class="order-step__fieldset">
+            <label class="order-step__label" for="name">Название юридического лица</label>
+            <input class="order-step__input-text" type="text" name="name" placeholder="Иван Иванович Иванов">
+          </fieldset>
+          </label>
+          <fieldset class="order-step__fieldset">
+            <label class="order-step__label" for="tel">Телефон</label>
+            <input class="order-step__input-text" type="text" name="tel" placeholder="+7 (916) 445 26 00">
+          </fieldset>
+          <fieldset class="order-step__fieldset">
+            <label class="order-step__label" for="email">E-mail</label>
+            <input class="order-step__input-text" type="email" name="email" placeholder="test@test.com">
+          </fieldset>
+          <fieldset class="order-step__fieldset">
+            <legend class="rder-step__legend">Варианты доставки</legend>
+            <label class="order-step__label-radio"><input class="order-step__input-radio" type="radio" name="delivery" value="">Самовывоз</label>
+            <label class="order-step__label-radio"><input class="order-step__input-radio" type="radio" name="delivery" value="">Доставка</label>
+          </fieldset>
+        </div>
+      </div>
+      <div class="order-step order-step__two">
+        <h3 class="order-step__title">
+          <span class="order-step__title-number">2</span>
+          Адрес
+        </h3>
+        <div class="order-step__content">
+          <fieldset class="order-step__fieldset">
+            <label class="order-step__label" for="city">Город</label>
+            <input class="order-step__input-text" type="text" name="city" placeholder="Введите название населенного пункта">
+          </fieldset>
+          <fieldset class="order-step__fieldset">
+            <label class="order-step__label" for="index">Индекс</label>
+            <input class="order-step__input-text" type="text" name="index" placeholder="Введите номер">
+          </fieldset>
+          <fieldset class="order-step__fieldset">
+            <label class="order-step__label" for="street">Улица</label>
+            <input class="order-step__input-text" type="text" name="street" placeholder="Введите название">
+          </fieldset>
+          <div class="order-step__content-three">
+            <fieldset class="order-step__fieldset">
+              <label class="order-step__label" for="house">Дом</label>
+              <input class="order-step__input-text" type="text" name="house" placeholder="">
+            </fieldset>
+            <fieldset class="order-step__fieldset">
+              <label class="order-step__label" for="building">Корпус / Строение</label>
+              <input class="order-step__input-text" type="text" name="building" placeholder="">
+            </fieldset>
+          </div>
+          <fieldset class="order-step__fieldset">
+            <label class="order-step__label" for="comment">Комментарий</label>
+            <textarea class="order-step__textarea" name="comment" placeholder="Добавить комментарий"></textarea>
+          </fieldset>
+        </div>
+      </div>
+      <div class="order-step order-step__three">
+        <h3 class="order-step__title">
+          <span class="order-step__title-number">3</span>
+          Информация о заказе
+        </h3>
+        <div class="order-step__content">
+          <div class="order-products scrollbar-inner">
+            <ul class="order-products__list">
+              <li class="order-item">
+                <div class="order-item__check">
+                  <label class="order-item__checkbox">
+                    <input class="order-item__checkbox-input" type="checkbox" name="" id="">
+                    <span class="order-item__checkbox-imitator"></span>
+                  </label>
+                </div>
+                <div class="order-item__pic"><img src="images/product1.jpg" alt=""></div>
+                <div class="order-item__content">
+                  <div class="order-item__article">LA1304</div>
+                  <div class="order-item__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</div>
+                  <div class="order-item__result">
+                    <div class="order-item__quantity">
+                      <button class="order-item__quantity-btn">-</button>
+                        <input class="order-item__quantity-value" value="1511" type="text" name="" id="">
+                      <button class="order-item__quantity-btn">+</button>
+                    </div>
+                    <div class="order-item__prices">
+                      <div class="order-item__old-price">282.44 ₽</div>
+                      <div class="order-item__price">260.20 ₽</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order-item__actions">
+                  <button class="order-item__delete"></button>
+                </div>
+              </li>
+              <li class="order-item">
+                <div class="order-item__check">
+                  <label class="order-item__checkbox">
+                    <input class="order-item__checkbox-input" type="checkbox" name="" id="">
+                    <span class="order-item__checkbox-imitator"></span>
+                  </label>
+                </div>
+                <div class="order-item__pic"><img src="images/product1.jpg" alt=""></div>
+                <div class="order-item__content">
+                  <div class="order-item__article">LA1304</div>
+                  <div class="order-item__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</div>
+                  <div class="order-item__result">
+                    <div class="order-item__quantity">
+                      <button class="order-item__quantity-btn">-</button>
+                        <input class="order-item__quantity-value" value="1511" type="text" name="" id="">
+                      <button class="order-item__quantity-btn">+</button>
+                    </div>
+                    <div class="order-item__prices">
+                      <div class="order-item__old-price">282.44 ₽</div>
+                      <div class="order-item__price">260.20 ₽</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order-item__actions">
+                  <button class="order-item__delete"></button>
+                </div>
+              </li>
+              <li class="order-item">
+                <div class="order-item__check">
+                  <label class="order-item__checkbox">
+                    <input class="order-item__checkbox-input" type="checkbox" name="" id="">
+                    <span class="order-item__checkbox-imitator"></span>
+                  </label>
+                </div>
+                <div class="order-item__pic"><img src="images/product1.jpg" alt=""></div>
+                <div class="order-item__content">
+                  <div class="order-item__article">LA1304</div>
+                  <div class="order-item__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</div>
+                  <div class="order-item__result">
+                    <div class="order-item__quantity">
+                      <button class="order-item__quantity-btn">-</button>
+                        <input class="order-item__quantity-value" value="1511" type="text" name="" id="">
+                      <button class="order-item__quantity-btn">+</button>
+                    </div>
+                    <div class="order-item__prices">
+                      <div class="order-item__old-price">282.44 ₽</div>
+                      <div class="order-item__price">260.20 ₽</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order-item__actions">
+                  <button class="order-item__delete"></button>
+                </div>
+              </li>
+              <li class="order-item">
+                <div class="order-item__check">
+                  <label class="order-item__checkbox">
+                    <input class="order-item__checkbox-input" type="checkbox" name="" id="">
+                    <span class="order-item__checkbox-imitator"></span>
+                  </label>
+                </div>
+                <div class="order-item__pic"><img src="images/product1.jpg" alt=""></div>
+                <div class="order-item__content">
+                  <div class="order-item__article">LA1304</div>
+                  <div class="order-item__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</div>
+                  <div class="order-item__result">
+                    <div class="order-item__quantity">
+                      <button class="order-item__quantity-btn">-</button>
+                        <input class="order-item__quantity-value" value="1511" type="text" name="" id="">
+                      <button class="order-item__quantity-btn">+</button>
+                    </div>
+                    <div class="order-item__prices">
+                      <div class="order-item__old-price">282.44 ₽</div>
+                      <div class="order-item__price">260.20 ₽</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order-item__actions">
+                  <button class="order-item__delete"></button>
+                </div>
+              </li>
+              <li class="order-item">
+                <div class="order-item__check">
+                  <label class="order-item__checkbox">
+                    <input class="order-item__checkbox-input" type="checkbox" name="" id="">
+                    <span class="order-item__checkbox-imitator"></span>
+                  </label>
+                </div>
+                <div class="order-item__pic"><img src="images/product1.jpg" alt=""></div>
+                <div class="order-item__content">
+                  <div class="order-item__article">LA1304</div>
+                  <div class="order-item__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</div>
+                  <div class="order-item__result">
+                    <div class="order-item__quantity">
+                      <button class="order-item__quantity-btn">-</button>
+                        <input class="order-item__quantity-value" value="1511" type="text" name="" id="">
+                      <button class="order-item__quantity-btn">+</button>
+                    </div>
+                    <div class="order-item__prices">
+                      <div class="order-item__old-price">282.44 ₽</div>
+                      <div class="order-item__price">260.20 ₽</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order-item__actions">
+                  <button class="order-item__delete"></button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="order-step__promo">
+            <div class="order-step__promo-title">Скидка</div>
+            <div class="order-step__promocod">
+              <input type="text" name="" id="" class="order-step__promocod-input">
+              <button class="order-step__promocod-btn">Применить</button>
+            </div>
+            <div class="order-step__promo-status">
+              <span class="order-step__promo-name">Скидка</span>
+              <span class="order-step__promo-value">10%</span>
+            </div>
+          </div>
+          <div class="order-step__result">
+            <div class="order-total">
+              <div class="order-total__title">Итого:</div>
+              <div>
+                <div class="order-total__old">1 000 282.44 ₽</div>
+                <div class="order-total__price">1 000 240.44 ₽</div>
+              </div>
+            </div>
+            <input class="order-step__btn" type="button" value="Оформить заказ">
+            <label class="order-step__agreement active">
+              <input class="order-step__agreement-checkbox" type="checkbox" name="" id="" checked>
+              <span>Я согласен <a href="#">на обработку персональных данных</a></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
