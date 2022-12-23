@@ -1,0 +1,12 @@
+.order-total__old {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.17px;
+    text-decoration-line: line-through;
+    color: rgba(1, 1, 1, 0.87);
+    opacity: 0.23;
+    padding-bottom: 4px;
+}

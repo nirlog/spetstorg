@@ -1,0 +1,4 @@
+.order-item__quantity {
+    display: flex;
+    justify-content: center;
+}

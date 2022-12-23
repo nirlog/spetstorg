@@ -1,0 +1,8 @@
+.order-item__pic {
+    padding: 10px;
+}
+
+.order-item__pic img {
+    width: 100%;
+    max-width: 90px;
+}

@@ -1,0 +1,31 @@
+.cart-products__btn {
+    padding: 12px 33px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid rgba(1, 1, 1, 0.32);
+    border-radius: 2px;
+    color: rgba(1, 1, 1, 0.8);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.cart-products__btn:hover {
+    border: 1px solid #010101;
+    color: #010101;
+}
+.cart-products__btn:active {
+    border: 1px solid #25589B;
+    color: #25589B;
+}
+
+.cart-products__btn img {
+    height: 18px;
+    margin-right: 10px;
+}

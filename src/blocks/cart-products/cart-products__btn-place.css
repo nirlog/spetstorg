@@ -1,0 +1,17 @@
+.cart-products__btn-place {
+    background-color: #25589B;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.cart-products__btn-place:hover,
+.cart-products__btn-place:active {
+    background-color: #25589B;
+    color: #FFFFFF;
+    text-decoration: none;
+}

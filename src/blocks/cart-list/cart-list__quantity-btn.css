@@ -1,0 +1,16 @@
+.cart-list__quantity-btn {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(37, 88, 155, 0.09);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.cart-list__quantity-btn:hover {
+    background-color: rgba(37, 88, 155, 0.37);
+}

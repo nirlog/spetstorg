@@ -1,0 +1,4 @@
+.cart-list__item {background-color: #fff;}
+.cart-list__item:hover {
+    background-color: rgba(37, 88, 155, 0.04);
+}

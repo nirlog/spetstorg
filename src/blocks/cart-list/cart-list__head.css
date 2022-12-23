@@ -1,0 +1,38 @@
+.cart-list__head {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(1, 1, 1, 0.87);
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.cart-list__head td {padding: 16px;}
+
+.cart-list__head .cart-list__check {}
+.cart-list__head .cart-list__article {
+    text-align: center;
+}
+.cart-list__head .cart-list__code {
+    text-align: center;
+}
+.cart-list__head .cart-list__pic {
+    text-align: center;
+}
+.cart-list__head .cart-list__name {}
+.cart-list__head .cart-list__price {
+    text-align: center;
+}
+.cart-list__head .cart-list__discount {
+    text-align: center;
+}
+.cart-list__head .cart-list__new-price {
+    text-align: center;
+}
+.cart-list__head .cart-list__quantity {
+    text-align: center;
+}
+.cart-list__head .cart-list__action {
+    text-align: center;
+}

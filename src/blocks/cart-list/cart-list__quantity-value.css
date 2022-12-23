@@ -1,0 +1,14 @@
+.cart-list__quantity-value {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #010101;
+    height: 16px;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    width: 48px;
+}

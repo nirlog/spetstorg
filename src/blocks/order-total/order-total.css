@@ -1,0 +1,8 @@
+.order-total {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 30px;
+}

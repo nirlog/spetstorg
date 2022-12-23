@@ -1,0 +1,19 @@
+.order-item__delete {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-image: url('../../images/delete-icon.svg');
+    background-position: center;
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.order-item__delete:hover {
+    background-image: url('../../images/delete-icon-hover.svg');
+}

@@ -1,0 +1,9 @@
+.order-total__title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #25589B;
+}

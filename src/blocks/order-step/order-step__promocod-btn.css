@@ -1,0 +1,15 @@
+.order-step__promocod-btn {
+    width: 112px;
+    height: 40px;
+    background: rgba(37, 88, 155, 0.07);
+    border: 1px solid #25589B;
+    border-radius: 0px 2px 2px 0px;
+    box-sizing: border-box;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.17px;
+    color: #25589B;
+}

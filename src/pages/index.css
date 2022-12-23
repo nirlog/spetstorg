@@ -1,0 +1,54 @@
+@import url(../blocks/scrollbar-inner/scrollbar-inner.css);
+@import url(../blocks/order-registration/order-registration.css);
+@import url(../blocks/order-registration/order-registration__title.css);
+@import url(../blocks/order-registration/order-registration__steps.css);
+@import url(../blocks/order-step/order-step.css);
+@import url(../blocks/order-step/order-step__title.css);
+@import url(../blocks/order-step/order-step__title-number.css);
+@import url(../blocks/order-step/order-step__content.css);
+@import url(../blocks/order-step/order-step__content-three.css);
+@import url(../blocks/order-step/order-step__fieldset.css);
+@import url(../blocks/order-step/order-step__label.css);
+@import url(../blocks/order-step/order-step__label-radio.css);
+@import url(../blocks/order-step/order-step__input-text.css);
+@import url(../blocks/order-step/order-step__input-radio.css);
+@import url(../blocks/order-step/order-step__textarea.css);
+
+@import url(../blocks/order-step/order-step__agreement.css);
+@import url(../blocks/order-step/order-step__btn.css);
+@import url(../blocks/order-step/order-step__promo.css);
+@import url(../blocks/order-step/order-step__promo-name.css);
+@import url(../blocks/order-step/order-step__promo-title.css);
+@import url(../blocks/order-step/order-step__promo-value.css);
+@import url(../blocks/order-step/order-step__promo-status.css);
+@import url(../blocks/order-step/order-step__promocod.css);
+@import url(../blocks/order-step/order-step__promocod-input.css);
+@import url(../blocks/order-step/order-step__promocod-btn.css);
+
+@import url(../blocks/order-products/order-products.css);
+@import url(../blocks/order-products/order-products__list.css);
+
+@import url(../blocks/order-item/order-item.css);
+@import url(../blocks/order-item/order-item__article.css);
+@import url(../blocks/order-item/order-item__check.css);
+@import url(../blocks/order-item/order-item__checkbox.css);
+@import url(../blocks/order-item/order-item__checkbox-input.css);
+@import url(../blocks/order-item/order-item__checkbox-imitator.css);
+@import url(../blocks/order-item/order-item__content.css);
+@import url(../blocks/order-item/order-item__name.css);
+@import url(../blocks/order-item/order-item__pic.css);
+@import url(../blocks/order-item/order-item__result.css);
+@import url(../blocks/order-item/order-item__prices.css);
+@import url(../blocks/order-item/order-item__price.css);
+@import url(../blocks/order-item/order-item__old-price.css);
+@import url(../blocks/order-item/order-item__quantity.css);
+@import url(../blocks/order-item/order-item__quantity-btn.css);
+@import url(../blocks/order-item/order-item__quantity-value.css);
+@import url(../blocks/order-item/order-item__actions.css);
+@import url(../blocks/order-item/order-item__delete.css);
+
+@import url(../blocks/order-total/order-total.css);
+@import url(../blocks/order-total/order-total__old.css);
+@import url(../blocks/order-total/order-total__price.css);
+@import url(../blocks/order-total/order-total__title.css);
+

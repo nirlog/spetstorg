@@ -1,0 +1,43 @@
+.cart-list__body {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.17px;
+    color: rgba(1, 1, 1, 0.87);
+}
+
+.cart-list__body td {padding: 16px;}
+
+.cart-list__body .cart-list__check {}
+.cart-list__body .cart-list__article {
+    text-align: center;
+}
+.cart-list__body .cart-list__code {
+    text-align: center;
+}
+.cart-list__body .cart-list__pic {
+    text-align: center;
+    padding: 16px 24px 16px 16px;
+    width: 130px;
+    box-sizing: border-box;
+}
+.cart-list__body .cart-list__name {}
+.cart-list__body .cart-list__price {
+    text-align: center;
+}
+.cart-list__body .cart-list__discount {
+    text-align: center;
+}
+.cart-list__body .cart-list__new-price {
+    text-align: center;
+}
+.cart-list__body .cart-list__quantity {}
+.cart-list__body .cart-list__action {
+    text-align: center;
+}
+
+.cart-list__body .cart-list__delete {
+    margin: 0 auto;
+}

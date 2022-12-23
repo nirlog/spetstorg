@@ -1,0 +1,11 @@
+.order-item__old-price {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.17px;
+    text-decoration-line: line-through;
+    color: rgba(1, 1, 1, 0.87);
+    opacity: 0.2;
+}

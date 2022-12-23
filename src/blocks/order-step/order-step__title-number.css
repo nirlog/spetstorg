@@ -1,0 +1,17 @@
+.order-step__title-number {
+    background: #25589B;
+    border: 1px solid #25589B;
+    border-radius: 21px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

@@ -1,0 +1,11 @@
+.order-step__input-text {
+    height: 44px;
+    border: 1px solid rgba(1, 1, 1, 0.12);
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 2px 9px;
+    box-sizing: border-box;
+    width: calc(100% - 18px);
+}
+
+.order-step__input-text::placeholder {opacity: 0.38;}

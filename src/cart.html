@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru" style="margin: 0 auto; padding: 0;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Товары в корзине</title>
+</head>
+
+<body style="max-width: 1520px; margin: 0 auto; padding: 0;">
+  <div class="cart-products">
+    <h1 class="cart-products__title">Товары в корзине</h1>
+    <div class="cart-list scrollbar-inner">
+      <table class="cart-list__table" cellspacing="0" cellpadding="0">
+        <thead class="cart-list__head">
+          <tr>
+            <td class="cart-list__check">
+              <label class="cart-products-checkbox">
+                <span class="cart-products-checkbox__imitator partially"></span>
+              </label>
+            </td>
+            <td class="cart-list__article"><span class="cart-list__filter">Артикул</span></td>
+            <td class="cart-list__code"><span class="cart-list__filter">Код товара</span></td>
+            <td class="cart-list__pic"><span class="cart-list__filter">Фото</span></td>
+            <td class="cart-list__name"><span class="cart-list__filter active increase">Название</span></td>
+            <td class="cart-list__price"><span class="cart-list__filter active decrease">Цена</span></td>
+            <td class="cart-list__discount"><span class="cart-list__filter">Скидка</span></td>
+            <td class="cart-list__new-price"><span class="cart-list__filter">Цена со скидкой</span></td>
+            <td class="cart-list__quantity"><span class="cart-list__filter">Количество</span></td>
+            <td class="cart-list__action"><span>Действия</span></td>
+          </tr>
+        </thead>
+        <tbody class="cart-list__body">
+          <tr class="cart-list__item">
+            <td class="cart-list__check">
+              <label class="cart-products-checkbox">
+                <input class="cart-products-checkbox__input" type="checkbox" name="" id="">
+                <span class="cart-products-checkbox__imitator"></span>
+              </label>
+            </td>
+            <td class="cart-list__article">LA1304</td>
+            <td class="cart-list__code">М4521</td>
+            <td class="cart-list__pic"><img class="cart-list__item-image" src="<%=require('./images/product1.jpg')%>" alt=""></td>
+            <td class="cart-list__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+            <td class="cart-list__price">282.44 ₽</td>
+            <td class="cart-list__discount">10%</td>
+            <td class="cart-list__new-price">260.20 ₽</td>
+            <td class="cart-list__quantity">
+              <div class="cart-list__item-quantity">
+                <button class="cart-list__quantity-btn">-</button>
+                <input class="cart-list__quantity-value" value="1511" type="text" name="" id="">
+                <button class="cart-list__quantity-btn">+</button>
+              </div>
+            </td>
+            <td class="cart-list__action">
+              <button class="cart-list__delete"></button>
+            </td>
+          </tr>
+          <tr class="cart-list__item">
+            <td class="cart-list__check">
+              <label class="cart-products-checkbox">
+                <input class="cart-products-checkbox__input" type="checkbox" name="" id="">
+                <span class="cart-products-checkbox__imitator"></span>
+              </label>
+            </td>
+            <td class="cart-list__article"><span>LA1304</span></td>
+            <td class="cart-list__code"><span>М4521</span></td>
+            <td class="cart-list__pic"><img class="cart-list__item-image" src="<%=require('./images/product1.jpg')%>" alt=""></td>
+            <td class="cart-list__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+            <td class="cart-list__price"><span>282.44 ₽</span></td>
+            <td class="cart-list__discount"><span>10%</span></td>
+            <td class="cart-list__new-price"><span>260.20 ₽</span></td>
+            <td class="cart-list__quantity">
+              <div class="cart-list__item-quantity">
+                <button class="cart-list__quantity-btn">-</button>
+                <input class="cart-list__quantity-value" value="1511" type="text" name="" id="">
+                <button class="cart-list__quantity-btn">+</button>
+              </div>
+            </td>
+            <td class="cart-list__action">
+              <button class="cart-list__delete"></button>
+            </td>
+          </tr>
+          <tr class="cart-list__item">
+            <td class="cart-list__check">
+              <label class="cart-products-checkbox">
+                <input class="cart-products-checkbox__input" type="checkbox" name="" id="">
+                <span class="cart-products-checkbox__imitator"></span>
+              </label>
+            </td>
+            <td class="cart-list__article">LA1304</td>
+            <td class="cart-list__code">М4521</td>
+            <td class="cart-list__pic"><img class="cart-list__item-image" src="<%=require('./images/product1.jpg')%>" alt=""></td>
+            <td class="cart-list__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+            <td class="cart-list__price">282.44 ₽</td>
+            <td class="cart-list__discount">10%</td>
+            <td class="cart-list__new-price">260.20 ₽</td>
+            <td class="cart-list__quantity">
+              <div class="cart-list__item-quantity">
+                <button class="cart-list__quantity-btn">-</button>
+                <input class="cart-list__quantity-value" value="1511" type="text" name="" id="">
+                <button class="cart-list__quantity-btn">+</button>
+              </div>
+            </td>
+            <td class="cart-list__action">
+              <button class="cart-list__delete"></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div class="cart-products__result">
+      <div class="cart-products__left">
+        <div class="cart-products__btns">
+          <button class="cart-products__btn cart-products__btn-send"><img src="<%=require('./images/mail-icon.svg')%>" alt=""> Отправить на почту</button>
+          <button class="cart-products__btn cart-products__btn-save"><img src="<%=require('./images/save-icon.svg')%>" alt=""> Сохранить как файл</button>
+          <button class="cart-products__btn cart-products__btn-clear"><img src="<%=require('./images/basket-icon.svg')%>" alt=""> Очистить</button>
+        </div>
+      </div>
+      <div class="cart-products__right">
+        <div class="cart-products__total">
+          <div class="cart-products__total-title">Итого:</div>
+          <div>
+            <div class="cart-products__total-old">1 000 282.44 ₽</div>
+            <div class="cart-products__total-price">1 000 240.44 ₽</div>
+          </div>
+        </div>
+        <div class="cart-products__btns">
+          <button class="cart-products__btn cart-products__btn-recalculate">Пересчитать</button>
+          <a class="cart-products__btn cart-products__btn-place" href="#">Оформить заказ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

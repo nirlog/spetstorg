@@ -1,0 +1,12 @@
+.order-step__promo-status {
+    opacity: 0.6;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #010101;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

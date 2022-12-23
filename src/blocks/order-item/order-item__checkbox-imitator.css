@@ -1,0 +1,19 @@
+.order-item__checkbox-imitator {
+    width: 24px;
+    height: 24px;
+    border: #25589B 1px solid;
+    box-sizing: border-box;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.order-item__checkbox-imitator.active {
+    background-color: #25589B;
+}
+
+.order-item__checkbox-imitator.active::before {
+    content: '\2714';
+}

@@ -1,0 +1,18 @@
+.order-step__btn {
+    height: 52px;
+    background: #25589B;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    margin-top: 40px;
+}

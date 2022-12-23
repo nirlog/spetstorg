@@ -1,0 +1,24 @@
+.cart-products-checkbox__imitator {
+    width: 24px;
+    height: 24px;
+    border: #25589B 1px solid;
+    box-sizing: border-box;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.cart-products-checkbox__imitator.partially,
+.cart-products-checkbox__imitator.all {
+    background-color: #25589B;
+}
+
+.cart-products-checkbox__imitator.partially::before {
+    content: '\2013';
+}
+
+.cart-products-checkbox__imitator.all::before {
+    content: '\2714';
+}

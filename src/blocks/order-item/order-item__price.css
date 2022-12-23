@@ -1,0 +1,9 @@
+.order-item__price {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.17px;
+    color: #25589B;
+}

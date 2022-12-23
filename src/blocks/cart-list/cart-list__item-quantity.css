@@ -1,0 +1,4 @@
+.cart-list__item-quantity {
+    display: flex;
+    justify-content: center;
+}

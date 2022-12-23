@@ -1,0 +1,5 @@
+.order-products {
+    max-height: 310px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}

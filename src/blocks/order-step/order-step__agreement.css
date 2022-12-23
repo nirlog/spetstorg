@@ -1,0 +1,42 @@
+.order-step__agreement {
+    margin-top: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #010101;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.order-step__agreement input[type="checkbox"]{
+    display: none;
+}
+
+.order-step__agreement::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: rgba(37, 88, 155, 0.1);
+    border: 1px solid #25589B;
+    color: #25589B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-step__agreement.active::before {
+    content: '\2714';
+}
+
+.order-step__agreement span {
+    padding-top: 2px;
+}
+
+.order-step__agreement span a {
+    color: #25589B;
+    opacity: 0.67;
+}

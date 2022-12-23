@@ -1,0 +1,7 @@
+.order-item {
+    display: flex;
+}
+
+.order-item:hover {
+    background-color: rgba(37, 88, 155, 0.04);
+}

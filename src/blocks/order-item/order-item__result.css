@@ -1,0 +1,4 @@
+.order-item__result{
+    display: flex;
+    justify-content: space-between;
+}

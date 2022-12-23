@@ -1,0 +1,14 @@
+.order-step__title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 30px 20px;
+    margin-bottom: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #25589B;
+}
